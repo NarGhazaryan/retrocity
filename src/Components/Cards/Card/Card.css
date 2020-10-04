@@ -1,0 +1,65 @@
+.Card {
+    width: 260px;
+    height: 330px;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Cookie', cursive;
+    cursor: default;
+}
+
+.mid {
+    width: 90%;
+    height: 93%;
+    background-image: url(https://png.pngtree.com/58pic/32/59/24/28j58PICyKeJDCe458PIC7Swp_PIC2018.png);
+    border: 2px solid peru;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    color: transparent;
+}
+
+.mid-rot {
+    transform: rotateY(180deg);
+    color: black;
+}
+
+.image {
+    width: 95%;
+    height: 95%;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.desc {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    transform: rotateY(180deg);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    text-align: end;
+}
+
+.mes{
+    transform: rotateZ(10deg);
+}
+
+#del{
+    position: absolute;
+    bottom: -225px;
+    right: 5px;
+}

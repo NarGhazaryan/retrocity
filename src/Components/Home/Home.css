@@ -1,0 +1,88 @@
+.Home {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://vinylgif.com/gifs/201412/pink-floyd---time-vinyl-1.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.btnDiv{
+    width: 20%;
+    height: 100%;
+}
+
+.cont {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn {
+    background: transparent;
+    height: 50px;
+    min-width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: moccasin;
+    font-size: 40px;
+    font-family: 'Cookie', cursive;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.profbtn {
+    bottom: 250px;
+}
+
+.cardbtn {
+    bottom: 150px;
+}
+
+.btn #circle {
+    width: 5px;
+    height: 5px;
+    background: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    overflow: hidden;
+    transition: 500ms;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn:hover {
+    background: transparent;
+}
+
+.btn:hover #circle {
+    height: 50px;
+    width: 150px;
+    left: 0;
+    border-radius: 0;
+    border-bottom: 2px solid moccasin;
+}

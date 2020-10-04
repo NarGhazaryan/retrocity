@@ -1,0 +1,12 @@
+.Cards{
+    width: 77%;
+    height: 80%;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 15px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}

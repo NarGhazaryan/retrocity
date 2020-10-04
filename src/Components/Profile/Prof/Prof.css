@@ -1,0 +1,67 @@
+.Prof {
+    width: 77%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    color: moccasin;
+}
+
+.ProfSide {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PostSide {
+    width: 100%;
+    min-height: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 1rem;
+    overflow: scroll;
+}
+
+.addPost{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.addPostForm{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 100000;
+}
+
+#Count{
+    position: fixed;
+    margin: 5px;
+}
+
+#signOut{
+    position: fixed;
+    margin: 5px;
+    margin-left: 55%;
+    cursor: pointer;
+}
+
+.addBtn{
+    width: 170px;
+    height: 80%;
+    background: transparent;
+    font-size: x-large;
+}
